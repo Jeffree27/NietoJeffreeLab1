@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TitleDesign"
+        android:layout_width="374dp"
+        android:layout_height="55dp"
+        android:text="Winford Hotel and Casino"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/MainTextDesign"
+        android:layout_width="323dp"
+        android:layout_height="29dp"
+        android:text="Location: San Lazaro Business Park"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/MainTextDesign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance from UST: 1.2 KM"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="470dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="503dp"
+        style="@style/ButtonDesign"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="502dp"
+        style="@style/ButtonDesign"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="335dp"
+        android:layout_height="309dp"
+        app:srcCompat="@drawable/Winford"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="35dp"
+        style="@style/ImageDesign"/>
+
+</android.support.constraint.ConstraintLayout>
